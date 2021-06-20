@@ -10,11 +10,11 @@ Description
 
 * **Table 4** lists observed and dereddened line fluxes on a scale relative to Hb, where Hb = 100.
 
-* **Table 5** presents electron temperatures and densities derived from CELs.
+* **Table 6** presents electron temperatures and densities derived from CELs.
 
-* **Table 6** presents electron temperatures derived from He I lines.
+* **Table 7** presents electron temperatures derived from He I lines.
 
-* **Table 7** presents electron temperatures and densities derived from ORLs.
+* **Table 8** presents electron temperatures and densities derived from ORLs.
 
 * **Table 11** presents ionic abundances relative to hydrogen derived from ORLs.
 
