@@ -1,0 +1,226 @@
+Properties of [WR] planetary nebulae                           (Danehkar, 2021)
+================================================================================
+Physical and chemical properties of Wolf-Rayet planetary nebulae
+     Danehkar A.
+================================================================================
+ADC_Keywords: Planetary nebulae ; Spectroscopy ; Abundances
+Keywords: planetary nebulae: general; ISM: abundances; stars: Wolf-Rayet
+
+Abstract:
+
+    Wolf-Rayet ([WR]) and weak emission-line (\textit{wels}) central stars 
+    of planetary nebulae (PNe) have hydrogen-deficient atmospheres, whose 
+    origins are not well understood. In the present study, we have conducted 
+    plasma diagnostics and abundance analysis of 18 Galactic PNe surrounding 
+    [WR] and \textit{wels} nuclei, using collisionally excited lines (CELs) 
+    and optical recombination lines (ORLs) measured with the Wide Field 
+    Spectrograph on the ANU 2.3-m telescope at the Siding Spring Observatory 
+    complemented with optical archival data.  Our plasma diagnostics implies 
+    that the electron densities and temperatures derived from CELs are 
+    correlated with the intrinsic nebular H$\beta$ surface brightness and 
+    excitation class, respectively.  A self-consistent method of plasma 
+    diagnostics of heavy element ORLs of N${}^{2+}$ and  O${}^{2+}$ likely 
+    suggests the presence of a small fraction of cool ($\lesssim$\,7000\,K), 
+    dense ($\sim$\,$10^4$--$10^5$\,cm$^{-3}$) materials in some objects, 
+    though with large uncertainties. Our abundance analysis indicates that 
+    the abundance discrepancy factor (ADF\,$\equiv$\,ORLs/CELs) of O${}^{2+}$ 
+    is correlated with the dichotomy between forbidden-line and He\,{\sc i} 
+    temperatures. Our results likely suggest the presence of a tiny fraction 
+    of cool, oxygen-rich dense clumps within the diffuse warm ionized nebulae.  
+    Moreover, our elemental abundances derived from CELs are mostly 
+    consistent with AGB models for initial masses from 1.5  to 5M$_{\odot}$.  
+    Further studies are necessary to understand better the origins of 
+    abundance discrepancies in PNe around [WR] and \textit{wels} stars.
+
+Description:
+
+Table 4 lists observed and dereddened line fluxes on a scale relative 
+    to Hb, where Hb = 100.
+
+Table 6 presents electron temperatures and densities derived from CELs.
+
+Table 7 presents electron temperatures derived from He I lines.
+
+Table 8 presents electron temperatures and densities derived from ORLs.
+
+Table 11 presents ionic abundances relative to hydrogen derived from ORLs.
+
+Table 12 presents ionic abundances relative to hydrogen derived from CELs.
+
+Table 13 presents mean ionic and total elemental abundances 
+        derived from ORLs and CELs.
+
+File Summary:
+--------------------------------------------------------------------------------
+  FileName               Lrecl   Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe                    80        .     This file
+table4_line_list.dat      159       20    Observed and dereddened line fluxes
+table6_diagnostic_cel.dat 118       20    Temperatures and densities from CELs
+table7_diagnostic_hei.dat 118       12    Temperatures from He I lines
+table8_diagnostic_orl.dat 163       14    Temperatures and densities from ORLs
+table11_abundance_cel.dat 104       20    Ionic abundances derived from CELs
+table12_abundance_orl.dat 104       17    Ionic abundances derived from ORLs
+table13_abundance_tot.dat 96        20    Mean ionic and total abundances
+--------------------------------------------------------------------------------
+
+See also:
+           V/84 : Strasbourg-ESO Cat of Galactic Planetary Nebulae (Acker+ 1992)
+         V/127A : MASH Catalogues of Planetary Nebulae (Parker+ 2006-2008)
+  J/A+A/280/581 : Chemical abundances of PNe (Pasquali+, 1993)
+  J/A+A/282/436 : Abundance gradients from disk PNs (Maciel+ 1994)
+  J/A+A/307/215 : Spectrophotometry of PNe (Cuisinier+, 1996)
+ J/A+AS/126/297 : PN abundances (Ratag+ 1997)
+  J/A+A/345/629 : Abundance gradients in planetary nebulae (Maciel+, 1999)
+  J/A+A/380/300 : Abundances of PN towards Galactic bulge (Escudero+, 2001)
+  J/A+A/423/199 : Chemical abundances of planetary nebulae (Costa+, 2004)
+  J/A+A/427/231 : Abundances in planetary nebulae (Gorny+, 2004)
+J/MNRAS/349/793 : Galactic PNe abundances (Perinotto+, 2004)
+  J/A+A/463/265 : Chemical compositions of 48 WR planetary nebulae(Girard+ 2007)
+  J/A+A/494/591 : Abundances in planetary nebulae (Chiappini+, 2009)
+ J/A+A/500/1089 : Abundances in planetary nebulae (Gorny+, 2009)
+  J/PAZh/35/574 : He, C, N and O abundances in PNe (Milanova+, 2009)
+  J/ApJ/724/748 : Galactic anticenter PNe and oxygen abundance (Henry+, 2010)
+  J/ApJ/711/619 : {alpha}-element abundances in galactic PNe (Milingo+, 2010)
+ J/ApJ/714/1096 : Galactic planetary nebulae (Stanghellini+, 2010)
+  J/A+A/538/A54 : Spectroscopy of 12 [WC] planetary nebulae (Garcia-Rojas+ 2012)
+  J/A+A/567/A12 : Chemical abundances in Galactic PNe (Garcia-Hernandez+, 2014)
+
+Byte-by-byte Description of file: table4_line_list.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 13  A13    ---        PNG       PNG name (PNGLLL.l+BB.b)
+  15- 27  A13    ---        Name      Name
+  29- 32  A4     ---        Ref       Reference of Observed Flux
+  34- 41  F8.2   Angstrom   Lam_lab    Laboratory Wavelength [Angstrom]
+  43- 52  A10    ---        Ion       Ion
+  54- 61  F8.2   Angstrom   Lam_obs   Observed Wavelength [Angstrom]
+  63- 72  F10.3  ---        F(lambda) Observed Flux (in units of F(Hb)=100)
+  74- 77  I4     %          F_Er(%)   Formal 1-sigma and noise of Observed Flux
+  79- 88  F10.3  ---        I(lambda) Dereddened Intensity(in units of I(Hb)=100)
+  90- 94  I4     %          I_Em(%)   Lower 90% error of Dereddened Intensity
+  96- 100 I4     %          I_Ep(%)   Upper 90% error of Dereddened Intensity
+ 102- 109 A8     ---        Mult      Multiplet (H: Balmer, V: ORLs, F: CELs)
+ 111- 126 A16    ---        Low_Term  Lower Term of Transition 
+ 128- 143 A16    ---        Up_Term   Upper Term of Transition 
+ 145- 152 A8     ---        g1        Statistical Weight of Lower Level
+ 154- 161 A8     ---        g2        Statistical Weight of Upper Level 
+--------------------------------------------------------------------------------
+Note (*): The symbol '*'  in Flux indicates that the listed line is blended with
+          the above listed line.
+References are as follows: 
+          D19 -- this paper;
+          D97 -- 1997MNRAS.292...86D;
+          G07 -- 2007A&A...463..265G; 
+          G12 -- 2012A&A...538A..54G; 
+          H97 -- 1997ApJ...487..304H; 
+          K91 -- 1991PASP..103...67K;
+          K94 -- 1994MNRAS.271..257K;
+          K03 -- 2003PASP..115...80K; 
+          M02 -- 2002ApJS..138..279M; 
+          P01 -- 2001A&A...367..983P, 1998A&A...337..866P;  
+          W07 -- 2007MNRAS.381..669W.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table6_diagnostic_cel.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 13  A13    ---        PNG       PNG name (PNGLLL.l+BB.b)
+  15- 27  A13    ---        Name      Name
+  29- 33  A5     ---        Type      Type (Te, Te_rc, Ne)
+  35- 44  A10    ---        Ion       Ion
+  46- 85  A40    ---        Diagnos.  Diagnostic Lines
+  87- 96  I10    ---        Value     Value (Te: Temperature or Ne: Density)
+  98- 107 I10    ---        Value_Em  Lower 90% error of Value
+ 109- 118 I10    ---        Value_Ep  Upper 90% error of Value
+--------------------------------------------------------------------------------
+Note (rc): The symbol ``rc'' indicates that the auroral lines are corrected for 
+           recombination contribution.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table7_diagnostic_hei.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 13  A13    ---        PNG       PNG name (PNGLLL.l+BB.b)
+  15- 27  A13    ---        Name      Name
+  29- 33  A5     ---        Type      Type (Te)
+  35- 44  A10    ---        Ion       Ion
+  46- 85  A40    ---        Diagnos.  Diagnostic Lines
+  87- 96  I10    ---        Value     Value (Te: Temperature)
+  98- 107 I10    ---        Value_Em  Lower 90% error of Value
+ 109- 118 I10    ---        Value_Ep  Upper 90% error of Value
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table8_diagnostic_orl.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 13  A13    ---        PNG       PNG name (PNGLLL.l+BB.b)
+  15- 27  A13    ---        Name      Name
+  29- 33  A5     ---        Type      Type (Te)
+  35- 44  A10    ---        Ion       Ion
+  46- 130 A85    ---        Diagnos.  Diagnostic Lines
+ 132- 141 I10    ---        Value     Value (Te: Temperature)
+ 143- 152 I10    ---        Value_Em  Lower 90% error of Value
+ 154- 163 I10    ---        Value_Ep  Upper 90% error of Value
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table11_abundance_cel.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 13  A13    ---        PNG       PNG name (PNGLLL.l+BB.b)
+  15- 27  A13    ---        Name      Name
+  29- 40  A12    ---        Ion       Ion
+  42- 51  A10    ---        Line      Line
+  53- 60  F8.2   Angstrom   Lam_lab   Laboratory Wavelength [Angstrom]
+  62- 65  4      ---        Wght      Weight used for Mean Abundance
+  67- 78  e12.5  ---        Abund     Abundances relative to Hydrogen
+  80- 91  e12.5  ---        Abund_Em  Lower 90% error of Abundances
+  93- 104 e12.5  ---        Abund_Ep  Upper 90% error of Abundances
+--------------------------------------------------------------------------------
+Note: For Sa 3-107, O+/H+ ionic abundance ratio estimated from  
+      S^2+/S^+ = 4.544 (O^2+/O^+)^0.459 (see Sec. 4.1. in the paper).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table12_abundance_orl.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 13  A13    ---        PNG       PNG name (PNGLLL.l+BB.b)
+  15- 27  A13    ---        Name      Name
+  29- 40  A12    ---        Ion       Ion
+  42- 51  A10    ---        Line      Line
+  53- 60  F8.2   Angstrom   Lam_lab   Laboratory Wavelength [Angstrom]
+  62- 65  I4     ---        Wght      Weight used for Mean Abundance
+  67- 78  e12.5  ---        Abund     Abundances relative to Hydrogen
+  80- 91  e12.5  ---        Abund_Em  Lower 90% error of Abundances
+  93- 104 e12.5  ---        Abund_Ep  Upper 90% error of Abundances
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table13_abundance_tot.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units      Label     Explanations
+--------------------------------------------------------------------------------
+   1- 13  A13    ---        PNG       PNG name (PNGLLL.l+BB.b)
+  15- 27  A13    ---        Name      Name
+  29- 40  A12    ---        Ion       Ion (Mean ionic, total, icf)
+  42- 48  A7     ---        Type      Type (ORL, CEL)
+  50- 57  A8     ---        icf_Ref   References for icf formulas
+  59- 70  e12.5  ---        Abund     Abundances relative to Hydrogen
+  72- 83  e12.5  ---        Abund_Em  Lower 90% error of Abundances
+  85- 96  e12.5  ---        Abund_Ep  Upper 90% error of Abundances
+--------------------------------------------------------------------------------
+Note: References for icf formulas are as follows: 
+          DMS14 -- 2014MNRAS.440..536D; 
+          ITL94 -- 1994ApJ...435..647I; 
+          KB94  -- 1994MNRAS.271..257K; 
+          L00   -- 2000MNRAS.312..585L; 
+          WL07  -- 2007MNRAS.381..669W. 
+--------------------------------------------------------------------------------
+
+================================================================================
+(End)          Ashkbiz Danehkar [Michigan, USA]                      16-Jun-2021
