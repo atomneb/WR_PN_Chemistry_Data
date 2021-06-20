@@ -12,6 +12,8 @@ Physical and chemical properties of Wolf-Rayet planetary nebulae. Supplementary 
 Description
 ===========
 
+Tables 4, 6–8, and 11–13 are available in the machine-readable format:
+
 * **Table 4** lists observed and dereddened line fluxes on a scale relative to Hb, where Hb = 100.
 
 * **Table 6** presents electron temperatures and densities derived from CELs.
