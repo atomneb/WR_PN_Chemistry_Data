@@ -22,9 +22,9 @@ Tables 4, 6–8, and 11–13 are available in the machine-readable format:
 
 * **Table 8** presents electron temperatures and densities derived from ORLs.
 
-* **Table 11** presents ionic abundances relative to hydrogen derived from ORLs.
+* **Table 11** presents ionic abundances relative to hydrogen derived from CELs.
 
-* **Table 12** presents ionic abundances relative to hydrogen derived from CELs.
+* **Table 12** presents ionic abundances relative to hydrogen derived from ORLs.
 
 * **Table 13** presents mean ionic and total elemental abundances derived from ORLs and CELs.
 
