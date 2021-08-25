@@ -2,8 +2,8 @@
 Physical and chemical properties of Wolf-Rayet planetary nebulae. Supplementary Data
 ====================================================================================
 
-.. image:: https://img.shields.io/badge/DOI-10.5281/zenodo.5002184-blue.svg
-    :target: https://doi.org/10.5281/zenodo.5002184
+.. image:: https://img.shields.io/badge/DOI-10.5281/zenodo.5002183-blue.svg
+    :target: https://doi.org/10.5281/zenodo.5002183
     :alt: Zenodo
 
 Physical and chemical properties of Wolf-Rayet planetary nebulae. Supplementary Data
@@ -50,5 +50,5 @@ Learn More
 ==================  =============================================
 **Repository**      https://github.com/atomneb/WR_PN_Chemistry_Data
 **GitPage**         https://atomneb.github.io/WR_PN_Chemistry_Data/
-**Archive**         `10.5281/zenodo.5002184 <https://doi.org/10.5281/zenodo.5002184>`_
+**Archive**         `10.5281/zenodo.5002183 <https://doi.org/10.5281/zenodo.5002183>`_
 ==================  =============================================
