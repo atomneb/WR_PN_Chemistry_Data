@@ -1,7 +1,9 @@
-Properties of [WR] planetary nebulae                           (Danehkar, 2021)
+J/ApJS/(vol)/(page) Properties of [WR] planetary nebulae       (Danehkar, 2021)
 ================================================================================
 Physical and chemical properties of Wolf-Rayet planetary nebulae
      Danehkar A.
+    <Astrophys. J. Suppl., (vol), (page) (2021)>
+    =2021ApJS..VVV.ppppD    (SIMBAD/NED BibCode)   
 ================================================================================
 ADC_Keywords: Planetary nebulae ; Spectroscopy ; Abundances
 Keywords: planetary nebulae: general; ISM: abundances; stars: Wolf-Rayet
@@ -11,26 +13,27 @@ Abstract:
     Wolf-Rayet ([WR]) and weak emission-line (\textit{wels}) central stars 
     of planetary nebulae (PNe) have hydrogen-deficient atmospheres, whose 
     origins are not well understood. In the present study, we have conducted 
-    plasma diagnostics and abundance analysis of 18 Galactic PNe surrounding 
+    plasma diagnostics and abundance analyses of 18 Galactic PNe surrounding 
     [WR] and \textit{wels} nuclei, using collisionally excited lines (CELs) 
     and optical recombination lines (ORLs) measured with the Wide Field 
     Spectrograph on the ANU 2.3-m telescope at the Siding Spring Observatory 
-    complemented with optical archival data.  Our plasma diagnostics implies 
+    complemented with optical archival data.  Our plasma diagnostics imply  
     that the electron densities and temperatures derived from CELs are 
     correlated with the intrinsic nebular H$\beta$ surface brightness and 
-    excitation class, respectively.  A self-consistent method of plasma 
-    diagnostics of heavy element ORLs of N${}^{2+}$ and  O${}^{2+}$ likely 
-    suggests the presence of a small fraction of cool ($\lesssim$\,7000\,K), 
-    dense ($\sim$\,$10^4$--$10^5$\,cm$^{-3}$) materials in some objects, 
-    though with large uncertainties. Our abundance analysis indicates that 
-    the abundance discrepancy factor (ADF\,$\equiv$\,ORLs/CELs) of O${}^{2+}$ 
+    excitation class, respectively.  Self-consistent plasma diagnostics of 
+    heavy element ORLs of N${}^{2+}$ and  O${}^{2+}$ likely suggest the 
+    presence of a small fraction of cool ($\lesssim$\,7000\,K), dense 
+    ($\sim$\,$10^4$--$10^5$\,cm$^{-3}$) materials in some objects, though 
+    with large uncertainties. Our abundance analyses indicate that the 
+    abundance discrepancy factor (ADF\,$\equiv$\,ORLs/CELs) of O${}^{2+}$ 
     is correlated with the dichotomy between forbidden-line and He\,{\sc i} 
     temperatures. Our results likely suggest the presence of a tiny fraction 
     of cool, oxygen-rich dense clumps within the diffuse warm ionized nebulae.  
     Moreover, our elemental abundances derived from CELs are mostly 
-    consistent with AGB models for initial masses from 1.5  to 5M$_{\odot}$.  
-    Further studies are necessary to understand better the origins of 
-    abundance discrepancies in PNe around [WR] and \textit{wels} stars.
+    consistent with AGB models in the range of initial masses from 1.5 to 
+    5M$_{\odot}$. Further studies are necessary to understand better the 
+    origins of abundance discrepancies in PNe around [WR] and \textit{wels} 
+    stars.
 
 Description:
 
@@ -43,9 +46,9 @@ Table 7 presents electron temperatures derived from He I lines.
 
 Table 8 presents electron temperatures and densities derived from ORLs.
 
-Table 11 presents ionic abundances relative to hydrogen derived from ORLs.
+Table 11 presents ionic abundances relative to hydrogen derived from CELs.
 
-Table 12 presents ionic abundances relative to hydrogen derived from CELs.
+Table 12 presents ionic abundances relative to hydrogen derived from ORLs.
 
 Table 13 presents mean ionic and total elemental abundances 
         derived from ORLs and CELs.
@@ -183,7 +186,7 @@ Byte-by-byte Description of file: table11_abundance_cel.dat
   93- 104 e12.5  ---        Abund_Ep  Upper 90% error of Abundances
 --------------------------------------------------------------------------------
 Note: For Sa 3-107, O+/H+ ionic abundance ratio estimated from  
-      S^2+/S^+ = 4.544 (O^2+/O^+)^0.459 (see Sec. 4.1. in the paper).
+      S^2+/S^+ = 4.892 (O^2+/O^+)^0.419 (see Sec. 4.1. in the paper).
 --------------------------------------------------------------------------------
 
 Byte-by-byte Description of file: table12_abundance_orl.dat
@@ -222,5 +225,7 @@ Note: References for icf formulas are as follows:
           WL07  -- 2007MNRAS.381..669W. 
 --------------------------------------------------------------------------------
 
+History:
+    From electronic version of the journal
 ================================================================================
-(End)          Ashkbiz Danehkar [Michigan, USA]                      16-Jun-2021
+(End)          Ashkbiz Danehkar [Michigan, USA]                      24-Aug-2021
