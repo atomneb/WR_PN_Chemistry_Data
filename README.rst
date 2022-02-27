@@ -35,13 +35,13 @@ Citation
 
    @article{Danehkar2021,
      author = {{Danehkar}, A.},
-     title = {Physical and chemical properties of Wolf-Rayet planetary nebulae},
-     journal = {ApJS, accepted (arXiv:2106.10762)},
-     volume = {},
-     number = {},
-     pages = {},
+     title = {Physical and Chemical Properties of Wolf-Rayet Planetary Nebulae},
+     journal = {ApJS},
+     volume = {257},
+     number = {2},
+     pages = {58},
      year = {2021},
-     doi = {}
+     doi = {10.3847/1538-4365/ac2310}
    }
 
 Learn More
